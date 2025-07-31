@@ -1,0 +1,39 @@
+# =========================
+# Node.js / Next.js (frontend/)
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# =========================
+# Python / Backend (backend/)
+# =========================
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/.env.*
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.pytest_cache/
+backend/*.log
+
+# =========================
+# IDEs and system files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Global log files
+# =========================
+*.log
