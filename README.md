@@ -5,7 +5,15 @@ Kairos is an AI-powered companion designed for mindful conversation and self-ref
 The platform integrates real-time voice communication, text-to-speech, and a virtual avatar to create an immersive and supportive experience.
 
 <p align="center">
-  <img src="frontend/app/favicon.ico" width="200" alt="Kairos Logo" />
+  <img src="assets/logo.svg" width="150" alt="Kairos Logo" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Therapist-blueviolet?style=for-the-badge&logo=OpenAI&logoColor=white" />
+  <img src="https://img.shields.io/badge/LiveKit-Agent-green?style=for-the-badge&logo=livekit&logoColor=white" />
+  <img src="https://img.shields.io/badge/TTS-ElevenLabs-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-Next.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Styling-Tailwind_CSS-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 </p>
 
 ---
@@ -35,6 +43,11 @@ The platform integrates real-time voice communication, text-to-speech, and a vir
 | **Styling**       | Tailwind CSS, shadcn/ui                                                                                        |
 | **Real-Time**     | LiveKit                                                                                                        |
 | **Deployment**    | Optimized for Vercel                                                                                           |
+
+---
+
+## 📸 Screenshots
+<p align="center"><img src="assets/landing_page.png" alt="Kairos Landing Page"/> </p> <table> <tr> <td align="center"><strong>Video Session</strong></td> <td align="center"><strong>Chat Interface</strong></td> </tr> <tr> <td width="50%"><img src="assets/video_call.png" alt="Kairos Video Call Interface" /></td> <td width="50%"><img src="assets/chat_messages.png" alt="Kairos Chat Messages" /></td> </tr> </table>
 
 ---
 
@@ -91,10 +104,10 @@ The project is divided into two main parts: `frontend` and `backend`.
 
 3.  **Configure Environment Variables:**
     Copy `.env.example` to `.env.local` and add your LiveKit credentials:
-    ```bash
+    ```env
     
     # .env.local
-      # LiveKit Credentials
+    # LiveKit Credentials
       LIVEKIT_URL=wss://your-livekit-url
       LIVEKIT_API_KEY=your-livekit-api-key
       LIVEKIT_API_SECRET=your-livekit-api-secret
